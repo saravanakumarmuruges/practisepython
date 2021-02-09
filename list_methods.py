@@ -32,5 +32,11 @@ print(sample_list)
 new_list = sample_list.copy() #to make copy of list into another variable
 print(new_list)
 print(sample_list.index(7)) #To get inxex of given value in an list, Will give value error if its not avaiable
+###################################################################################
+del sample_list[2] #To remove value in given index location
+print(sample_list)
+del sample_list[4:6] #to remove values in the given index range
+print(sample_list)
+###################################################################################
 sample_list.clear() #To remove all values in the list
 print(sample_list)
