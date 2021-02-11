@@ -4,10 +4,10 @@
 def revarray(li):
     length = len(li) - 1
     result = []
-    string = ' '
+    string = ''
     while length >= 0:
-        result.append(li[length])
+        string = string + ' ' + str(li[length])
         length -= 1
-    return string.join(str(result))
+    return string.lstrip()
 
 print(revarray([1,2,3,4]))
